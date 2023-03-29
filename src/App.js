@@ -37,7 +37,7 @@ const App = () => {
   }, [])
 
   return (
-    <div style="padding:2em;"className="App">
+    <div className="App">
       {/* Add input fields to the UI for user input */}
       <input
         placeholder="start"

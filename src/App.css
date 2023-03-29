@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.App-input {
+  padding: 2em;
+}
+
+.App-button {
+  padding: 2em;
+}
