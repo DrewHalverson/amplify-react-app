@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { API } from "aws-amplify";
 import "./App.css";
 
-export const GitHubBornOn = () => {
+export const BornOn = () => {
 	// Create user born variable and set to empty array
 	const [born, updateBorn] = useState([]);
 
@@ -19,7 +19,7 @@ export const GitHubBornOn = () => {
 
 	return (
 		<h2>
-			The GitHub user {born.login} was born on {born.created_at}
+			The user account {born.login} was created on {born.created_at}
 		</h2>
 	);
 };
