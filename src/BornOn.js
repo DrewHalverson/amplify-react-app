@@ -16,10 +16,11 @@ export const BornOn = () => {
 	useEffect(() => {
 		fetchBorn();
 	}, []);
-
+	
 	return (
 		<h2>
 			The user account {born.login} was created on {born.created_at}
 		</h2>
 	);
-};
+
+};	
