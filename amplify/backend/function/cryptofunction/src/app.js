@@ -61,6 +61,19 @@ app.get('/coins', function(req, res) {
     .catch(err => res.json({ error: err }))
 })
 
+app.get("/born", function (req, res) {
+	// Define base url
+	let apiUrl = `https://api.github.com/users/DrewHalverson`;
+
+	// Call API and return response
+	axios
+		.get(apiUrl)
+		.then((response) => {
+			res.json({ born: response.data });
+		})
+		.catch((err) => res.json({ error: err }));
+});
+
 /**********************
  * Example get method *
  **********************/
