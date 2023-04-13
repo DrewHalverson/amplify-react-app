@@ -25,18 +25,6 @@ app.use(function(req, res, next) {
   next()
 });
 
-/* Creating coins route using the textbook code */
-// app.get('/coins', function(req, res) {
-//   const coins = [
-//     { name: 'Bitcoin', symbol: 'BTC', price_usd: "10000" },
-//     { name: 'Ethereum', symbol: 'ETH', price_usd: "400" },
-//     { name: 'Litecoin', symbol: 'LTC', price_usd: "150" }
-//   ]
-//   res.json({
-//     coins
-//   })
-// })
-
 /* Connecting Actual API */
 
 // Import axios
@@ -60,6 +48,19 @@ app.get('/coins', function(req, res) {
     })
     .catch(err => res.json({ error: err }))
 })
+
+app.get("/born", function (req, res) {
+	// Define base url
+	let apiUrl = `https://api.github.com/users/DrewHalverson`;
+
+	// Call API and return response
+	axios
+		.get(apiUrl)
+		.then((response) => {
+			res.json({ born: response.data });
+		})
+		.catch((err) => res.json({ error: err }));
+});
 
 /**********************
  * Example get method *

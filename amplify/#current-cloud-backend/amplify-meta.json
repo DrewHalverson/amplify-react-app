@@ -17,19 +17,19 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
-      "lastBuildTimeStamp": "2023-02-28T17:06:18.936Z",
+      "lastBuildTimeStamp": "2023-04-13T17:50:56.504Z",
       "lastBuildType": "PROD",
-      "lastPackageTimeStamp": "2023-02-28T17:06:20.010Z",
-      "distZipFilename": "cryptofunction-484e2b454f4169644648-build.zip",
+      "lastPackageTimeStamp": "2023-04-13T17:50:57.418Z",
+      "distZipFilename": "cryptofunction-4558366b6747474d524a-build.zip",
       "s3Bucket": {
         "deploymentBucketName": "amplify-cryptoapp-dev-161214-deployment",
-        "s3Key": "amplify-builds/cryptofunction-484e2b454f4169644648-build.zip"
+        "s3Key": "amplify-builds/cryptofunction-4558366b6747474d524a-build.zip"
       },
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-cryptoapp-dev-161214-deployment/amplify-cfn-templates/function/cryptofunction-cloudformation-template.json",
         "logicalId": "functioncryptofunction"
       },
-      "lastPushTimeStamp": "2023-02-28T17:07:25.930Z",
+      "lastPushTimeStamp": "2023-04-13T17:52:02.875Z",
       "output": {
         "LambdaExecutionRoleArn": "arn:aws:iam::428214988209:role/cryptoappLambdaRoled742989d-dev",
         "Region": "us-east-1",
@@ -37,7 +37,7 @@
         "Name": "cryptofunction-dev",
         "LambdaExecutionRole": "cryptoappLambdaRoled742989d-dev"
       },
-      "lastPushDirHash": "Hel8mMJLQSMvxkPLROSNN1ohjlQ="
+      "lastPushDirHash": "hEhMZU76V+2A9iI3UTnvrnOmqd4="
     }
   },
   "api": {
@@ -58,7 +58,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-cryptoapp-dev-161214-deployment/amplify-cfn-templates/api/cryptoapi-cloudformation-template.json",
         "logicalId": "apicryptoapi"
       },
-      "lastPushTimeStamp": "2023-02-28T17:07:25.652Z",
+      "lastPushTimeStamp": "2023-04-13T17:52:02.585Z",
       "output": {
         "ApiName": "cryptoapi",
         "RootUrl": "https://sarrrb9hul.execute-api.us-east-1.amazonaws.com/dev",

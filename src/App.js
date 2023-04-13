@@ -39,7 +39,6 @@ const App = () => {
 
   return (
     <div className="App">
-      <BornOn/>
 
       {/* Add input fields to the UI for user input */}
       <input
@@ -62,7 +61,7 @@ const App = () => {
               </div>
             ))
           }
-          
+    <BornOn/>      
     </div>
   );
 }
